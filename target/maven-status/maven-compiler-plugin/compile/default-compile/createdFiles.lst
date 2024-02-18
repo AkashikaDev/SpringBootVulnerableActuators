@@ -1,6 +1,0 @@
-com\acctuator\test\suit\springboot_vulnerable_acctuators\SpringbootVulnerableAcctuatorsApplication.class
-com\acctuator\test\suit\springboot_vulnerable_acctuators\controller\UserService.class
-com\acctuator\test\suit\springboot_vulnerable_acctuators\HelloController.class
-com\acctuator\test\suit\springboot_vulnerable_acctuators\entity\User.class
-com\acctuator\test\suit\springboot_vulnerable_acctuators\controller\UserController.class
-com\acctuator\test\suit\springboot_vulnerable_acctuators\repository\UserRepository.class
