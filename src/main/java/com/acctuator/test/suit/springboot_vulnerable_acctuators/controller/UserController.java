@@ -23,18 +23,18 @@ public class UserController {
         return userService.getAllUsers();
     }
 
-    @GetMapping("/{id}")
-    public User getUserById(@PathVariable Long id) {
-        return userService.getUserById(id);
-    }
+    // @GetMapping("/{id}")
+    // public User getUserById(@PathVariable Long id) {
+    //     return userService.getUserById(id);
+    // }
 
     @PostMapping
     public void saveUser(@RequestBody User user) {
         userService.saveUser(user);
     }
 
-    @DeleteMapping("/{id}")
-    public void deleteUser(@PathVariable Long id) {
-        userService.deleteUser(id);
-    }
+    // @DeleteMapping("/{id}")
+    // public void deleteUser(@PathVariable Long id) {
+    //     userService.deleteUser(id);
+    // }
 }
